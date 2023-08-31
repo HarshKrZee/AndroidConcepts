@@ -1,4 +1,4 @@
-package com.example.concepts.ProgrammingParadigms.MultiThreading
+package com.example.concepts.ProgrammingParadigms.Coroutines
 
 import android.content.ContentValues.TAG
 import androidx.appcompat.app.AppCompatActivity

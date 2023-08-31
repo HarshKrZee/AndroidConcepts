@@ -1,4 +1,4 @@
-package com.example.concepts.ProgrammingParadigms.MultiThreading
+package com.example.concepts.ProgrammingParadigms.Coroutines
 
 import android.content.ContentValues.TAG
 import androidx.appcompat.app.AppCompatActivity
@@ -9,7 +9,6 @@ import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.async
 import kotlinx.coroutines.delay
-import kotlinx.coroutines.job
 import kotlinx.coroutines.launch
 
 // Coroutine Builders are of two types , Launch and Async

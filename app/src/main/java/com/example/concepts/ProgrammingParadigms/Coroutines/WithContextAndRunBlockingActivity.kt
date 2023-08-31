@@ -1,4 +1,4 @@
-package com.example.concepts.ProgrammingParadigms.MultiThreading
+package com.example.concepts.ProgrammingParadigms.Coroutines
 
 import android.content.ContentValues.TAG
 import androidx.appcompat.app.AppCompatActivity
@@ -6,7 +6,6 @@ import android.os.Bundle
 import android.util.Log
 import com.example.concepts.R
 import kotlinx.coroutines.Dispatchers
-import kotlinx.coroutines.GlobalScope
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.runBlocking

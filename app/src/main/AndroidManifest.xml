@@ -13,7 +13,11 @@
         android:theme="@style/Theme.Concepts"
         tools:targetApi="31">
         <activity
-            android:name=".ProgrammingParadigms.MultiThreading.WithContextAndRunBlockingActivity"
+            android:name=".ProgrammingParadigms.Flows.StateFlowActivity"
+            android:exported="true" >
+        </activity>
+        <activity
+            android:name=".ProgrammingParadigms.Flows.SharedFlowActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -22,16 +26,34 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".ProgrammingParadigms.MultiThreading.JobCancellationActivity"
+            android:name=".ProgrammingParadigms.Flows.FlowOnAndExceptionHandlingActivity"
             android:exported="true"></activity>
         <activity
-            android:name=".ProgrammingParadigms.MultiThreading.CoroutineContextActivity"
-            android:exported="true"></activity>
+            android:name="com.example.flows.FlowOperatorsActivity"
+            android:exported="true" />
         <activity
-            android:name=".ProgrammingParadigms.MultiThreading.CoroutineActivity"
+            android:name="com.example.flows.FlowActivity"
+            android:exported="true" />
+        <activity
+            android:name="com.example.flows.ChannelActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ProgrammingParadigms.Coroutines.ViewModelScopeAndLifeCycleViewMainActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ProgrammingParadigms.Coroutines.WithContextAndRunBlockingActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ProgrammingParadigms.Coroutines.JobCancellationActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ProgrammingParadigms.Coroutines.CoroutineContextActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ProgrammingParadigms.Coroutines.CoroutineActivity"
             android:exported="false" />
         <activity
-            android:name=".ProgrammingParadigms.MultiThreading.CoroutineBuilderAndJobActivity"
+            android:name=".ProgrammingParadigms.Coroutines.CoroutineBuilderAndJobActivity"
             android:exported="true" />
         <activity
             android:name=".MainActivity"
